@@ -1,0 +1,8 @@
+Value Bgp_neigh ([0-9a-fA-F:]+)
+Value NEIGH_AS (\d+)
+Value STATE_PFXRCD ([\d\w]+)
+
+Start
+  ^${Bgp_neigh}\s+\d\s+${NEIGH_AS}\s+\d+\s+\d+\s+\d+\s+\d+\s+\d+\s+[a-z0-9]+\s+${STATE_PFXRCD}\s*$$ -> Record
+
+EOF
