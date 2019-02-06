@@ -17,7 +17,6 @@ def textfsm_parser(textfsm_file_name, data_file_name):
 #       SOX = 93
 #       MYIX = 250
 #       LINx LON1 = 18
-#       JBIX = 2279
 #       HKIX Peering LAN 1 = 42
 #       Equinix SG = 158
 #       AMS-IX = 26
